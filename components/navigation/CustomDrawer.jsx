@@ -14,7 +14,7 @@ const CustomDrawerContent = (props) => {
         contentContainerStyle={styles.drawerContent}
       >
         <Image
-          source={require("../../assets/images/react-logo.png")}
+          source={require("../../assets/images/logo.png")}
           style={styles.drawerLogo}
         />
         <Text style={styles.drawerTitle}>My App</Text>

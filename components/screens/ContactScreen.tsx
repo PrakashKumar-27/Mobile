@@ -6,6 +6,8 @@ const ContactScreen = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.textTeam}>Abstract Autocrats Team</Text>
+      <Text style={styles.textTeam}>&</Text>
+      <Text style={styles.textTeam}>Rohit</Text>
     </View>
   );
 };

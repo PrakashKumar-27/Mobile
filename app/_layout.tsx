@@ -9,7 +9,7 @@ import * as SplashScreen from "expo-splash-screen";
 import { useEffect } from "react";
 import "react-native-reanimated";
 import LoginScreen from "@/components/screens/LoginScreen";
-import MainTabNavigator from "@/components/navigation/MainTabNavigator";
+import TabNavigator from "@/components/navigation/TabNavigator";
 import { useColorScheme } from "@/hooks/useColorScheme";
 import { NavigationContainer } from "@react-navigation/native";
 
@@ -46,7 +46,7 @@ export default function RootLayout() {
           />
           <Stack.Screen
             name="Home"
-            component={MainTabNavigator}
+            component={TabNavigator}
             options={{ headerShown: false }}
           />
         </Stack.Navigator>

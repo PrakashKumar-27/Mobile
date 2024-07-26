@@ -1,4 +1,3 @@
-// navigation/MainTabNavigator.tsx
 import React from "react";
 import HomeScreen from "../screens/HomeScreen";
 import AboutScreen from "../screens/AboutScreen";
@@ -6,9 +5,9 @@ import ContactScreen from "../screens/ContactScreen";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { NavigationContainer } from "@react-navigation/native";
 import LoginScreen from "../screens/LoginScreen";
-import CustomDrawerContent from "../navigation/CustomDrawer";
+import CustomDrawerContent from "./CustomDrawer";
 
-const MainTabNavigator = () => {
+const TabNavigator = () => {
   const Drawer = createDrawerNavigator();
 
   return (
@@ -26,4 +25,4 @@ const MainTabNavigator = () => {
   );
 };
 
-export default MainTabNavigator;
+export default TabNavigator;

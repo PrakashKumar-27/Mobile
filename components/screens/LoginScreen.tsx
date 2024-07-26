@@ -10,7 +10,7 @@ const LoginScreen = ({ navigation }: any) => {
     // Simple validation for demo purposes
     if (username && password) {
       if (username == "admin" && password == "pass123") {
-        navigation.navigate("Main");
+        navigation.navigate("Home");
       } else {
         alert("Please enter valid credentials!");
       }
@@ -22,7 +22,7 @@ const LoginScreen = ({ navigation }: any) => {
   return (
     <View style={styles.container}>
       <Image
-        source={require("../../assets/images/react-logo.png")}
+        source={require("../../assets/images/logo.png")}
         style={styles.loginLogo}
       />
 
